@@ -7,19 +7,18 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class HomeFragment extends Fragment implements View.OnClickListener {
-
-    //private Button
-
+public class DeleteUserFragment extends Fragment {
+//edit text et bouton
 
 
-
-    public HomeFragment() {
+    public DeleteUserFragment() {
         // Required empty public constructor
     }
 
@@ -28,36 +27,13 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_home, container, false);
+        View view = inflater.inflate(R.layout.fragment_delete_user, container, false);
 
+//txtuserid et button
 
-//initialisation des boutons
-
-
-
-
-
-
+//DeleteButton.setOnclickList...
         return view;
-    }
-
-    @Override
-    public void onClick(View view) {
-        switch (view.getId())
-        {
-
-
-
-
-
-
-
-
-
-
-        }
-
-
 
     }
+
 }
